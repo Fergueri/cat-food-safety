@@ -1,0 +1,18 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #0b0f14; color: #e8eef6; }
+.wrap { max-width: 920px; margin: 40px auto; padding: 0 16px; }
+h1 { margin: 0 0 8px; }
+.disclaimer { opacity: 0.8; line-height: 1.4; margin: 0 0 20px; }
+input { width: 100%; padding: 12px 14px; border-radius: 10px; border: 1px solid #273043; background: #111827; color: #e8eef6; }
+.controls { display: flex; gap: 12px; margin: 12px 0 18px; flex-wrap: wrap; }
+label { display: flex; gap: 8px; align-items: center; }
+select { padding: 8px 10px; border-radius: 10px; border: 1px solid #273043; background: #111827; color: #e8eef6; }
+.status { opacity: 0.75; margin: 0 0 12px; }
+.results { display: grid; gap: 12px; }
+.card { border: 1px solid #273043; background: #0f1623; border-radius: 14px; padding: 14px; }
+.top { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; flex-wrap: wrap; }
+.badge { padding: 2px 10px; border-radius: 999px; font-size: 12px; border: 1px solid #273043; }
+.badge.toxic { background: #2a0f14; }
+.badge.avoid { background: #2a210f; }
+.badge.okay-occasional { background: #0f2a16; }
+.small { opacity: 0.8; font-size: 13px; line-height: 1.35; }
+a { color: #8ab4ff; }
