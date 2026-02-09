@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Can Cats Eat This?</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Can Cats Eat This?</h1>
+    <p class="disclaimer">
+      Educational only — not veterinary advice. If your cat may have eaten something harmful, contact a veterinarian or animal poison control.
+    </p>
+
+    <input id="q" type="search" placeholder="Search: onion, chicken, chocolate…" autocomplete="off" />
+
+    <div class="controls">
+      <label>
+        Safety:
+        <select id="safety">
+          <option value="">All</option>
+          <option value="toxic">toxic</option>
+          <option value="avoid">avoid</option>
+          <option value="okay-occasional">okay-occasional</option>
+        </select>
+      </label>
+      <label>
+        Category:
+        <select id="category">
+          <option value="">All</option>
+        </select>
+      </label>
+    </div>
+
+    <p id="status" class="status"></p>
+    <div id="results" class="results"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
